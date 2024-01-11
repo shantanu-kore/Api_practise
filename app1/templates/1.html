@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>orm
+        
+    </title>
+</head>
+<body>
+    <form method="post">
+        {% csrf_token %}
+
+        
+        <label for="first_name">first name</label>
+        <input type="text" name="firstname" id="first_name"><br>
+        
+        <label for="last_name">last name</label>
+        <input type="text" name="lastname" id="last_name"><br><br>
+        <label for="age">age</label>
+        <input type="number" name="age" id="age">
+        {{n}}
+        
+        
+        <button type="submit">submit</button>
+        
+        
+    
+    </form>
+    
+</body>
+</html>
